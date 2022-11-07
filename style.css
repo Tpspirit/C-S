@@ -2,9 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
+    font-family: arial, sans-serif;
     
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+
 
 /* nav bar */
 nav h1 {
@@ -41,3 +46,17 @@ nav ul li{
     margin: 0 20px;
 
 }
+
+#about {
+    min-height: 3rem;
+  }
+
+.about_us {
+    flex: 1;
+    text-align: center;
+    font-family: inherit;
+    font-size: 1.2rem;
+    margin: 20px;
+    font-size: 1.5rem;
+    line-height: 2;
+     }
